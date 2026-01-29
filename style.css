@@ -3,3 +3,65 @@ body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Hero Section */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+#hero p {
+  font-size: 1.15rem;
+  max-width: 750px;
+  line-height: 1.7;
+}
+
+/* Section Headings */
+h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* Content Text */
+p, li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Lists */
+ul {
+  max-width: 750px;
+  margin: auto;
+}
+
+/* Links */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
