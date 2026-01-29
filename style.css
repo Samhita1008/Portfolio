@@ -49,17 +49,19 @@ body {
 
 /* Navigation links */
 #hero a {
-  color: #ffffff; /* white text */
-  text-decoration: none; /* remove underline */
-  margin: 22px; /* space between links */
-  font-weight: 500; /* slightly bold */
-  font-size: 5rem;
-  transition: color 0.3s ease, transform 0.3s ease; /* smooth hover effect */
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 4px 8px; /* space inside the “bar” */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
 #hero a:hover {
-  color: #38bdf8; /* light blue on hover */
-  transform: scale(1.1); /* slight zoom effect */
+  background-color: #38bdf8; /* blue background bar */
+  color: #000000; /* text turns black on hover */
 }
 
 /* Section Headings */
