@@ -57,6 +57,11 @@ body {
   transition: color 0.3s ease, transform 0.3s ease; /* smooth hover effect */
 }
 
+#hero a:hover {
+  color: #38bdf8; /* light blue on hover */
+  transform: scale(1.1); /* slight zoom effect */
+}
+
 /* Section Headings */
 h2 {
   margin-top: 80px;
