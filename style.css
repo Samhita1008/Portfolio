@@ -47,21 +47,22 @@ body {
   color: #ffffff;
 }
 
-/* Navigation links */
+/* Navigation links — full background bar on hover */
 #hero a {
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0 12px;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 4px 8px; /* space inside the “bar” */
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  color: #ffffff;             /* white text */
+  text-decoration: none;       /* remove underline */
+  margin: 0 12px;              /* spacing between links */
+  font-weight: 500;            /* slightly bold */
+  font-size: 1rem;             /* text size */
+  padding: 6px 12px;           /* space inside the “bar” */
+  border-radius: 6px;          /* rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* smooth hover */
 }
 
 #hero a:hover {
-  background-color: #38bdf8; /* blue background bar */
-  color: #000000; /* text turns black on hover */
+  background-color: #38bdf8;   /* blue highlight bar */
+  color: #000000;              /* text turns black on hover */
+  cursor: pointer;             /* pointer on hover */
 }
 
 /* Section Headings */
