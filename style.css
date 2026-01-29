@@ -47,6 +47,16 @@ body {
   color: #ffffff;
 }
 
+/* Navigation links */
+#hero a {
+  color: #ffffff; /* white text */
+  text-decoration: none; /* remove underline */
+  margin: 22px; /* space between links */
+  font-weight: 500; /* slightly bold */
+  font-size: 5rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* smooth hover effect */
+}
+
 /* Section Headings */
 h2 {
   margin-top: 80px;
@@ -63,14 +73,4 @@ p, li {
 ul {
   max-width: 750px;
   margin: auto;
-}
-
-/* Links */
-a {
-  color: #38bdf8;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
